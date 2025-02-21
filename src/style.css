@@ -1,0 +1,11 @@
+.clip-path-custom {
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
+}
+.fade-up-hover {
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.fade-up-hover:hover {
+  transform: translateY(-4px) scale(1.1);
+  background-color: #4a5568; /* Warna abu-abu lebih terang */
+}
